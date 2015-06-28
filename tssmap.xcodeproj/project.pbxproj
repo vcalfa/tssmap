@@ -39,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		205D15DC1B404FFA008F13C2 /* IMG_0166.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0166.PNG; sourceTree = "<group>"; };
+		205D15DD1B404FFA008F13C2 /* IMG_0167.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0167.PNG; sourceTree = "<group>"; };
+		205D15DE1B404FFA008F13C2 /* IMG_0168.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_0168.PNG; sourceTree = "<group>"; };
 		206317581B402ECE00BE4EA4 /* GMSAnimateMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAnimateMarker.h; sourceTree = "<group>"; };
 		206317591B402ECE00BE4EA4 /* GMSAnimateMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSAnimateMarker.m; sourceTree = "<group>"; };
 		2063175C1B40491C00BE4EA4 /* TSS Logo.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TSS Logo.sketch"; sourceTree = "<group>"; };
@@ -154,6 +157,16 @@
 			path = ../SketchGraphicsSource;
 			sourceTree = "<group>";
 		};
+		2063175D1B404E4E00BE4EA4 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				205D15DC1B404FFA008F13C2 /* IMG_0166.PNG */,
+				205D15DD1B404FFA008F13C2 /* IMG_0167.PNG */,
+				205D15DE1B404FFA008F13C2 /* IMG_0168.PNG */,
+			);
+			name = Screenshots;
+			sourceTree = "<group>";
+		};
 		20B3E2581B3EAE620023F43D /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +213,7 @@
 		20B4C53C1B3DEB1100C336DB /* tssmap */ = {
 			isa = PBXGroup;
 			children = (
+				2063175D1B404E4E00BE4EA4 /* Screenshots */,
 				2063175B1B4048CD00BE4EA4 /* Sketch-graphics-source */,
 				206317571B402EA000BE4EA4 /* Custom */,
 				206317561B3FFA5900BE4EA4 /* ViewControllers */,
