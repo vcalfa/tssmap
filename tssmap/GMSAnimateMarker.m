@@ -35,6 +35,10 @@
     return [_path coordinateAtIndex:_target];
 }
 
+- (BOOL)isStepNext {
+    return (_target < ([_path count]-1));
+}
+
 - (void)setVelocityKmH:(double)velocity {
     _velocity = velocity * (1.0/3.6);
 }
@@ -43,7 +47,12 @@
     
     if (!_isAnimated) return;
     
+    if (![self isStepNext]) {
+        return;
+    }
+    
     CLLocationCoordinate2D coord = [self next];
+    
     CLLocationCoordinate2D previous = self.position;
     
     CLLocationDistance distance = GMSGeometryDistance(previous, coord);
