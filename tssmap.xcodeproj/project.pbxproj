@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20B3E24B1B3E023B0023F43D /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B3E24A1B3E023B0023F43D /* Route.m */; };
+		20B3E24E1B3E03280023F43D /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B3E24D1B3E03280023F43D /* AppData.m */; };
+		20B3E2511B3E85040023F43D /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B3E2501B3E85040023F43D /* Service.m */; };
+		20B3E2541B3EADEE0023F43D /* Directions.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B3E2531B3EADEE0023F43D /* Directions.m */; };
+		20B3E2571B3EAE570023F43D /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B3E2561B3EAE570023F43D /* Location.m */; };
+		20B3E25B1B3EBA760023F43D /* Leg.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B3E25A1B3EBA760023F43D /* Leg.m */; };
+		20B3E25E1B3EBAD20023F43D /* AppModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B3E25D1B3EBAD20023F43D /* AppModelObject.m */; };
+		20B3E2611B3EBB9D0023F43D /* Bounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B3E2601B3EBB9D0023F43D /* Bounds.m */; };
+		20B3E2641B3ECA1E0023F43D /* RouteInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B3E2631B3ECA1E0023F43D /* RouteInfo.m */; };
+		20B3E2671B3ECAB40023F43D /* Step.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B3E2661B3ECAB40023F43D /* Step.m */; };
 		20B4C5401B3DEB1100C336DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B4C53F1B3DEB1100C336DB /* main.m */; };
 		20B4C5431B3DEB1100C336DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B4C5421B3DEB1100C336DB /* AppDelegate.m */; };
 		20B4C5461B3DEB1100C336DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B4C5451B3DEB1100C336DB /* ViewController.m */; };
@@ -14,6 +24,7 @@
 		20B4C54B1B3DEB1100C336DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20B4C54A1B3DEB1100C336DB /* Images.xcassets */; };
 		20B4C54E1B3DEB1100C336DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20B4C54C1B3DEB1100C336DB /* LaunchScreen.xib */; };
 		20B4C55A1B3DEB1100C336DB /* tssmapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B4C5591B3DEB1100C336DB /* tssmapTests.m */; };
+		CC9FD48F11FAF5AD5759218A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C410C975554746C7B0AC8A /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20B3E2491B3E023B0023F43D /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Route.h; path = Model/Route.h; sourceTree = "<group>"; };
+		20B3E24A1B3E023B0023F43D /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Route.m; path = Model/Route.m; sourceTree = "<group>"; };
+		20B3E24C1B3E03280023F43D /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
+		20B3E24D1B3E03280023F43D /* AppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppData.m; sourceTree = "<group>"; };
+		20B3E24F1B3E85040023F43D /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		20B3E2501B3E85040023F43D /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
+		20B3E2521B3EADEE0023F43D /* Directions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Directions.h; path = Model/Directions.h; sourceTree = "<group>"; };
+		20B3E2531B3EADEE0023F43D /* Directions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Directions.m; path = Model/Directions.m; sourceTree = "<group>"; };
+		20B3E2551B3EAE570023F43D /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Location.h; path = Model/Location.h; sourceTree = "<group>"; };
+		20B3E2561B3EAE570023F43D /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = Model/Location.m; sourceTree = "<group>"; };
+		20B3E2591B3EBA760023F43D /* Leg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Leg.h; path = Model/Leg.h; sourceTree = "<group>"; };
+		20B3E25A1B3EBA760023F43D /* Leg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Leg.m; path = Model/Leg.m; sourceTree = "<group>"; };
+		20B3E25C1B3EBAD20023F43D /* AppModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppModelObject.h; path = Model/AppModelObject.h; sourceTree = "<group>"; };
+		20B3E25D1B3EBAD20023F43D /* AppModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppModelObject.m; path = Model/AppModelObject.m; sourceTree = "<group>"; };
+		20B3E25F1B3EBB9D0023F43D /* Bounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bounds.h; path = Model/Bounds.h; sourceTree = "<group>"; };
+		20B3E2601B3EBB9D0023F43D /* Bounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bounds.m; path = Model/Bounds.m; sourceTree = "<group>"; };
+		20B3E2621B3ECA1E0023F43D /* RouteInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RouteInfo.h; path = Model/RouteInfo.h; sourceTree = "<group>"; };
+		20B3E2631B3ECA1E0023F43D /* RouteInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RouteInfo.m; path = Model/RouteInfo.m; sourceTree = "<group>"; };
+		20B3E2651B3ECAB40023F43D /* Step.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Step.h; path = Model/Step.h; sourceTree = "<group>"; };
+		20B3E2661B3ECAB40023F43D /* Step.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Step.m; path = Model/Step.m; sourceTree = "<group>"; };
+		20B3E2681B3EF6E40023F43D /* sk-SK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sk-SK"; path = "sk-SK.lproj/Main.strings"; sourceTree = "<group>"; };
 		20B4C53A1B3DEB1100C336DB /* tssmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tssmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B4C53E1B3DEB1100C336DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20B4C53F1B3DEB1100C336DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +72,9 @@
 		20B4C5531B3DEB1100C336DB /* tssmapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tssmapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B4C5581B3DEB1100C336DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20B4C5591B3DEB1100C336DB /* tssmapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tssmapTests.m; sourceTree = "<group>"; };
+		64B255505162C883D852C4EF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C5FB0B0DF9C92E00DBCEC386 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F7C410C975554746C7B0AC8A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9FD48F11FAF5AD5759218A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +96,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		206317531B3FF9DA00BE4EA4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				20B4C54C1B3DEB1100C336DB /* LaunchScreen.xib */,
+				20B4C5471B3DEB1100C336DB /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		206317541B3FFA2100BE4EA4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				20B3E24F1B3E85040023F43D /* Service.h */,
+				20B3E2501B3E85040023F43D /* Service.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		206317551B3FFA3900BE4EA4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				20B3E24C1B3E03280023F43D /* AppData.h */,
+				20B3E24D1B3E03280023F43D /* AppData.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		206317561B3FFA5900BE4EA4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				20B4C5441B3DEB1100C336DB /* ViewController.h */,
+				20B4C5451B3DEB1100C336DB /* ViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		20B3E2581B3EAE620023F43D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20B3E25C1B3EBAD20023F43D /* AppModelObject.h */,
+				20B3E25D1B3EBAD20023F43D /* AppModelObject.m */,
+				20B3E2491B3E023B0023F43D /* Route.h */,
+				20B3E24A1B3E023B0023F43D /* Route.m */,
+				20B3E2521B3EADEE0023F43D /* Directions.h */,
+				20B3E2531B3EADEE0023F43D /* Directions.m */,
+				20B3E2551B3EAE570023F43D /* Location.h */,
+				20B3E2561B3EAE570023F43D /* Location.m */,
+				20B3E2591B3EBA760023F43D /* Leg.h */,
+				20B3E25A1B3EBA760023F43D /* Leg.m */,
+				20B3E25F1B3EBB9D0023F43D /* Bounds.h */,
+				20B3E2601B3EBB9D0023F43D /* Bounds.m */,
+				20B3E2621B3ECA1E0023F43D /* RouteInfo.h */,
+				20B3E2631B3ECA1E0023F43D /* RouteInfo.m */,
+				20B3E2651B3ECAB40023F43D /* Step.h */,
+				20B3E2661B3ECAB40023F43D /* Step.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		20B4C5311B3DEB1100C336DB = {
 			isa = PBXGroup;
 			children = (
 				20B4C53C1B3DEB1100C336DB /* tssmap */,
 				20B4C5561B3DEB1100C336DB /* tssmapTests */,
 				20B4C53B1B3DEB1100C336DB /* Products */,
+				8D1FE3DA7D81B6EDA9D606ED /* Pods */,
+				2CF248D976700D71F603923B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,13 +178,14 @@
 		20B4C53C1B3DEB1100C336DB /* tssmap */ = {
 			isa = PBXGroup;
 			children = (
+				206317561B3FFA5900BE4EA4 /* ViewControllers */,
+				206317531B3FF9DA00BE4EA4 /* Storyboards */,
+				206317541B3FFA2100BE4EA4 /* Service */,
+				206317551B3FFA3900BE4EA4 /* Data */,
+				20B3E2581B3EAE620023F43D /* Model */,
 				20B4C5411B3DEB1100C336DB /* AppDelegate.h */,
 				20B4C5421B3DEB1100C336DB /* AppDelegate.m */,
-				20B4C5441B3DEB1100C336DB /* ViewController.h */,
-				20B4C5451B3DEB1100C336DB /* ViewController.m */,
-				20B4C5471B3DEB1100C336DB /* Main.storyboard */,
 				20B4C54A1B3DEB1100C336DB /* Images.xcassets */,
-				20B4C54C1B3DEB1100C336DB /* LaunchScreen.xib */,
 				20B4C53D1B3DEB1100C336DB /* Supporting Files */,
 			);
 			path = tssmap;
@@ -119,6 +217,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2CF248D976700D71F603923B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7C410C975554746C7B0AC8A /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D1FE3DA7D81B6EDA9D606ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5FB0B0DF9C92E00DBCEC386 /* Pods.debug.xcconfig */,
+				64B255505162C883D852C4EF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20B4C55D1B3DEB1100C336DB /* Build configuration list for PBXNativeTarget "tssmap" */;
 			buildPhases = (
+				1BF8B14C062C3304DBEEBB44 /* Check Pods Manifest.lock */,
 				20B4C5361B3DEB1100C336DB /* Sources */,
 				20B4C5371B3DEB1100C336DB /* Frameworks */,
 				20B4C5381B3DEB1100C336DB /* Resources */,
+				0A86B1CB0DBF20CF5894BA9C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +331,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A86B1CB0DBF20CF5894BA9C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BF8B14C062C3304DBEEBB44 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20B4C5361B3DEB1100C336DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B3E2671B3ECAB40023F43D /* Step.m in Sources */,
+				20B3E25B1B3EBA760023F43D /* Leg.m in Sources */,
 				20B4C5461B3DEB1100C336DB /* ViewController.m in Sources */,
+				20B3E24B1B3E023B0023F43D /* Route.m in Sources */,
 				20B4C5431B3DEB1100C336DB /* AppDelegate.m in Sources */,
+				20B3E2611B3EBB9D0023F43D /* Bounds.m in Sources */,
 				20B4C5401B3DEB1100C336DB /* main.m in Sources */,
+				20B3E24E1B3E03280023F43D /* AppData.m in Sources */,
+				20B3E25E1B3EBAD20023F43D /* AppModelObject.m in Sources */,
+				20B3E2541B3EADEE0023F43D /* Directions.m in Sources */,
+				20B3E2641B3ECA1E0023F43D /* RouteInfo.m in Sources */,
+				20B3E2571B3EAE570023F43D /* Location.m in Sources */,
+				20B3E2511B3E85040023F43D /* Service.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +408,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				20B4C5481B3DEB1100C336DB /* Base */,
+				20B3E2681B3EF6E40023F43D /* sk-SK */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -347,21 +508,27 @@
 		};
 		20B4C55E1B3DEB1100C336DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FB0B0DF9C92E00DBCEC386 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = tssmap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tssmap;
 			};
 			name = Debug;
 		};
 		20B4C55F1B3DEB1100C336DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B255505162C883D852C4EF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = tssmap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tssmap;
 			};
 			name = Release;
 		};
@@ -418,6 +585,7 @@
 				20B4C55F1B3DEB1100C336DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20B4C5601B3DEB1100C336DB /* Build configuration list for PBXNativeTarget "tssmapTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +594,7 @@
 				20B4C5621B3DEB1100C336DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
