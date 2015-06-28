@@ -41,6 +41,7 @@
 /* Begin PBXFileReference section */
 		206317581B402ECE00BE4EA4 /* GMSAnimateMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAnimateMarker.h; sourceTree = "<group>"; };
 		206317591B402ECE00BE4EA4 /* GMSAnimateMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSAnimateMarker.m; sourceTree = "<group>"; };
+		2063175C1B40491C00BE4EA4 /* TSS Logo.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TSS Logo.sketch"; sourceTree = "<group>"; };
 		20B3E2491B3E023B0023F43D /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Route.h; path = Model/Route.h; sourceTree = "<group>"; };
 		20B3E24A1B3E023B0023F43D /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Route.m; path = Model/Route.m; sourceTree = "<group>"; };
 		20B3E24C1B3E03280023F43D /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
@@ -144,6 +145,15 @@
 			name = Custom;
 			sourceTree = "<group>";
 		};
+		2063175B1B4048CD00BE4EA4 /* Sketch-graphics-source */ = {
+			isa = PBXGroup;
+			children = (
+				2063175C1B40491C00BE4EA4 /* TSS Logo.sketch */,
+			);
+			name = "Sketch-graphics-source";
+			path = ../SketchGraphicsSource;
+			sourceTree = "<group>";
+		};
 		20B3E2581B3EAE620023F43D /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +200,7 @@
 		20B4C53C1B3DEB1100C336DB /* tssmap */ = {
 			isa = PBXGroup;
 			children = (
+				2063175B1B4048CD00BE4EA4 /* Sketch-graphics-source */,
 				206317571B402EA000BE4EA4 /* Custom */,
 				206317561B3FFA5900BE4EA4 /* ViewControllers */,
 				206317531B3FF9DA00BE4EA4 /* Storyboards */,
