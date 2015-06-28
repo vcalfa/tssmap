@@ -13,12 +13,14 @@
 #import "Directions.h"
 #import "AppData.h"
 #import "Route.h"
+#import "GMSAnimateMarker.h"
 
 @interface ViewController () <UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource, GMSPanoramaViewDelegate>
 
 
 @property (weak, nonatomic) IBOutlet GMSMapView *mapView;
 @property (weak, nonatomic) GMSPanoramaView *panoView;
+@property (strong, nonatomic) GMSAnimateMarker *car;
 
 @property (weak, nonatomic) IBOutlet UITextField *startLocationField;
 @property (weak, nonatomic) IBOutlet UITextField *endLocationField;
@@ -139,6 +141,17 @@
     GMSCoordinateBounds *allBounds = [[GMSCoordinateBounds alloc] initWithPath:[polyline path]];
     
     [mapView animateWithCameraUpdate:[GMSCameraUpdate fitBounds:allBounds withPadding:50.0f]];
+    
+    GMSAnimateMarker *car = [[GMSAnimateMarker alloc] initWithPath:path];
+    car.icon = [UIImage imageNamed:@"car"];
+    car.groundAnchor = CGPointMake(0.5f, 0.5f);
+    car.flat = YES;
+    car.map = mapView;
+    [car setVelocityKmH:90.0]; // 70 Km/h
+    
+    self.playPauseButton.enabled = YES;
+    [self.playPauseButton setTitle:@"Play" forState:UIControlStateNormal];
+    self.car = car;
 }
 
 - (BOOL)isValidateForm {
@@ -215,10 +228,15 @@
     GMSPanoramaView *panoView = [[GMSPanoramaView alloc] initWithFrame:self.mapView.frame];
     panoView.delegate = self;
     self.panoView = panoView;
-    [self.panoView moveNearCoordinate: self.mapView.camera.target];
+    
+    if (self.car) {
+        [self.panoView moveNearCoordinate: self.car.position];
+    } else {
+        [self.panoView moveNearCoordinate: self.mapView.camera.target];
+    }
     
     [self.view insertSubview:self.panoView aboveSubview:self.mapView];
-    self.playPauseButton.enabled = NO;
+    //self.playPauseButton.enabled = NO;
     [self.streetMapButton setTitle:@"Map" forState:UIControlStateNormal];
 }
 
@@ -232,12 +250,20 @@
     
     [self.panoView removeFromSuperview];
     
-    self.playPauseButton.enabled = YES;
+    //self.playPauseButton.enabled = YES;
     [self.streetMapButton setTitle:@"Street" forState:UIControlStateNormal];
 }
 
 - (IBAction)playPauseAction:(UIButton *)sender {
     
+    if (self.car.isAnimated) {
+        [self.car pause];
+        [sender setTitle:@"Play" forState:UIControlStateNormal];
+    }
+    else {
+        [self.car play];
+        [sender setTitle:@"Pause" forState:UIControlStateNormal];
+    }
 }
 
 #pragma mark - GMSPanoramaViewDelegate

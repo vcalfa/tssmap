@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2063175A1B402ECE00BE4EA4 /* GMSAnimateMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = 206317591B402ECE00BE4EA4 /* GMSAnimateMarker.m */; };
 		20B3E24B1B3E023B0023F43D /* Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B3E24A1B3E023B0023F43D /* Route.m */; };
 		20B3E24E1B3E03280023F43D /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B3E24D1B3E03280023F43D /* AppData.m */; };
 		20B3E2511B3E85040023F43D /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B3E2501B3E85040023F43D /* Service.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		206317581B402ECE00BE4EA4 /* GMSAnimateMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAnimateMarker.h; sourceTree = "<group>"; };
+		206317591B402ECE00BE4EA4 /* GMSAnimateMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSAnimateMarker.m; sourceTree = "<group>"; };
 		20B3E2491B3E023B0023F43D /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Route.h; path = Model/Route.h; sourceTree = "<group>"; };
 		20B3E24A1B3E023B0023F43D /* Route.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Route.m; path = Model/Route.m; sourceTree = "<group>"; };
 		20B3E24C1B3E03280023F43D /* AppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
@@ -132,6 +135,15 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
+		206317571B402EA000BE4EA4 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				206317581B402ECE00BE4EA4 /* GMSAnimateMarker.h */,
+				206317591B402ECE00BE4EA4 /* GMSAnimateMarker.m */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
 		20B3E2581B3EAE620023F43D /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +190,7 @@
 		20B4C53C1B3DEB1100C336DB /* tssmap */ = {
 			isa = PBXGroup;
 			children = (
+				206317571B402EA000BE4EA4 /* Custom */,
 				206317561B3FFA5900BE4EA4 /* ViewControllers */,
 				206317531B3FF9DA00BE4EA4 /* Storyboards */,
 				206317541B3FFA2100BE4EA4 /* Service */,
@@ -382,6 +395,7 @@
 				20B3E2641B3ECA1E0023F43D /* RouteInfo.m in Sources */,
 				20B3E2571B3EAE570023F43D /* Location.m in Sources */,
 				20B3E2511B3E85040023F43D /* Service.m in Sources */,
+				2063175A1B402ECE00BE4EA4 /* GMSAnimateMarker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
